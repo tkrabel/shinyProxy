@@ -1,0 +1,8 @@
+shinyproxy:
+  restart: always
+  image: shiny-proxy:1.1.1
+  net: "host"
+
+docker_daemon_communicator:
+  restart: always
+  image: bobrik/socat
