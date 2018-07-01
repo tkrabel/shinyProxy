@@ -1,8 +1,10 @@
-shinyproxy:
-  restart: always
-  image: shiny-proxy:1.1.1
-  net: "host"
+version: '3'
 
-docker_daemon_communicator:
-  restart: always
-  image: bobrik/socat
+services:
+  # shiny proxy container
+  shinyproxy:
+    restart: always
+    image: statworx/shiny-proxy:1.1.1
+    network_mode: "host"
+    container_name: shiny-proxy
+

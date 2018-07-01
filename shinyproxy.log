@@ -1261,3 +1261,369 @@ Caused by: java.net.ConnectException: Connection refused (Connection refused)
 2018-06-30 23:26:10.678  INFO 78807 --- [Thread-1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@e4487af: startup date [Sat Jun 30 23:25:55 CEST 2018]; root of context hierarchy
 2018-06-30 23:26:10.681  INFO 78807 --- [Thread-1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
 2018-06-30 23:26:10.682  INFO 78807 --- [Thread-1] o.s.j.d.e.EmbeddedDatabaseFactory        : Shutting down embedded database: url='jdbc:h2:mem:shinyproxy-social;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false'
+2018-07-01 09:21:29.591  INFO 1272 --- [main] e.o.shinyproxy.ShinyProxyApplication     : Starting ShinyProxyApplication v1.1.1 on tobias-Aspire-V5-573G with PID 1272 (/home/tobias/projects/shinyProxy/shinyproxy-1.1.1.jar started by tobias in /home/tobias/projects/shinyProxy)
+2018-07-01 09:21:29.596  INFO 1272 --- [main] e.o.shinyproxy.ShinyProxyApplication     : No active profile set, falling back to default profiles: default
+2018-07-01 09:21:30.231  INFO 1272 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1757cd72: startup date [Sun Jul 01 09:21:30 CEST 2018]; root of context hierarchy
+2018-07-01 09:21:32.191  INFO 1272 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-01 09:21:32.559  INFO 1272 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8fe083f8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-01 09:21:36.435  INFO 1272 --- [main] org.xnio                                 : XNIO version 3.3.6.Final
+2018-07-01 09:21:36.477  INFO 1272 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.6.Final
+2018-07-01 09:21:36.800  WARN 1272 --- [main] io.undertow.websockets.jsr               : UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2018-07-01 09:21:36.800  WARN 1272 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2018-07-01 09:21:36.853  INFO 1272 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2018-07-01 09:21:36.853  INFO 1272 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6652 ms
+2018-07-01 09:21:37.135  INFO 1272 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-01 09:21:37.137  INFO 1272 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-01 09:21:37.137  INFO 1272 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-01 09:21:37.138  INFO 1272 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-01 09:21:37.140  INFO 1272 --- [main] .s.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2018-07-01 09:21:37.140  INFO 1272 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-07-01 09:21:37.933  INFO 1272 --- [main] e.o.s.stats.StatCollectorRegistry        : Disabled. Usage statistics will not be processed.
+2018-07-01 09:21:38.494  INFO 1272 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/assets/**'], []
+2018-07-01 09:21:38.495  INFO 1272 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/css/**'], []
+2018-07-01 09:21:38.496  INFO 1272 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/webjars/**'], []
+2018-07-01 09:21:38.744  INFO 1272 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@47547132, org.springframework.security.web.context.SecurityContextPersistenceFilter@105b693d, org.springframework.security.web.header.HeaderWriterFilter@3b36e000, org.springframework.security.web.authentication.logout.LogoutFilter@73017a80, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@68dcfd52, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@42fcc7e6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5ce4369b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@655523dd, org.springframework.security.web.session.SessionManagementFilter@629ae7e, org.springframework.security.web.access.ExceptionTranslationFilter@149f5761, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1e54cb33]
+2018-07-01 09:21:38.875  INFO 1272 --- [main] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:shinyproxy-social;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2018-07-01 09:21:39.181  INFO 1272 --- [main] o.s.jdbc.datasource.init.ScriptUtils     : Executing SQL script from class path resource [org/springframework/social/connect/jdbc/JdbcUsersConnectionRepository.sql]
+2018-07-01 09:21:39.202  INFO 1272 --- [main] o.s.jdbc.datasource.init.ScriptUtils     : Executed SQL script from class path resource [org/springframework/social/connect/jdbc/JdbcUsersConnectionRepository.sql] in 20 ms.
+2018-07-01 09:21:39.493  INFO 1272 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1757cd72: startup date [Sun Jul 01 09:21:30 CEST 2018]; root of context hierarchy
+2018-07-01 09:21:39.609  INFO 1272 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto java.lang.String eu.openanalytics.shinyproxy.controllers.IndexController.index(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+2018-07-01 09:21:39.611  INFO 1272 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/heartbeat/**]}" onto void eu.openanalytics.shinyproxy.controllers.HeartbeatController.heartbeat(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-01 09:21:39.612  INFO 1272 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto java.lang.String eu.openanalytics.shinyproxy.controllers.ErrorController.handleError(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-01 09:21:39.613  INFO 1272 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin]}" onto java.lang.String eu.openanalytics.shinyproxy.controllers.AdminController.admin(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+2018-07-01 09:21:39.614  INFO 1272 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/app/*],methods=[GET]}" onto java.lang.String eu.openanalytics.shinyproxy.controllers.AppController.app(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+2018-07-01 09:21:39.615  INFO 1272 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/app/*],methods=[POST]}" onto java.lang.String eu.openanalytics.shinyproxy.controllers.AppController.startApp(javax.servlet.http.HttpServletRequest)
+2018-07-01 09:21:39.616  INFO 1272 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login],methods=[GET]}" onto public java.lang.String eu.openanalytics.shinyproxy.controllers.LoginController.getLoginPage(java.util.Optional<java.lang.String>,org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+2018-07-01 09:21:39.617  INFO 1272 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/issue],methods=[POST]}" onto public java.lang.String eu.openanalytics.shinyproxy.controllers.IssueController.postIssue(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-01 09:21:39.646  INFO 1272 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/connect/{providerId}],methods=[POST]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.connect(java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+2018-07-01 09:21:39.647  INFO 1272 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/connect/{providerId}],methods=[GET]}" onto public java.lang.String org.springframework.social.connect.web.ConnectController.connectionStatus(java.lang.String,org.springframework.web.context.request.NativeWebRequest,org.springframework.ui.Model)
+2018-07-01 09:21:39.648  INFO 1272 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/connect],methods=[GET]}" onto public java.lang.String org.springframework.social.connect.web.ConnectController.connectionStatus(org.springframework.web.context.request.NativeWebRequest,org.springframework.ui.Model)
+2018-07-01 09:21:39.648  INFO 1272 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/connect/{providerId}],methods=[GET],params=[oauth_token]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.oauth1Callback(java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+2018-07-01 09:21:39.649  INFO 1272 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/connect/{providerId}],methods=[GET],params=[code]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.oauth2Callback(java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+2018-07-01 09:21:39.650  INFO 1272 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/connect/{providerId}],methods=[GET],params=[error]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.oauth2ErrorCallback(java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+2018-07-01 09:21:39.650  INFO 1272 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/connect/{providerId}],methods=[DELETE]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.removeConnections(java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+2018-07-01 09:21:39.650  INFO 1272 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/connect/{providerId}/{providerUserId}],methods=[DELETE]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.removeConnection(java.lang.String,java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+2018-07-01 09:21:39.654  INFO 1272 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/signin/{providerId}],methods=[GET]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ProviderSignInController.canceledAuthorizationCallback()
+2018-07-01 09:21:39.655  INFO 1272 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/signin/{providerId}],methods=[POST]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ProviderSignInController.signIn(java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+2018-07-01 09:21:39.655  INFO 1272 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/signin/{providerId}],methods=[GET],params=[oauth_token]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ProviderSignInController.oauth1Callback(java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+2018-07-01 09:21:39.656  INFO 1272 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/signin/{providerId}],methods=[GET],params=[code]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ProviderSignInController.oauth2Callback(java.lang.String,java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+2018-07-01 09:21:39.656  INFO 1272 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/signin/{providerId}],methods=[GET],params=[error]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ProviderSignInController.oauth2ErrorCallback(java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+2018-07-01 09:21:39.712  INFO 1272 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/assets/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-01 09:21:39.712  INFO 1272 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-01 09:21:39.712  INFO 1272 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-01 09:21:39.786  INFO 1272 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-01 09:21:40.371  INFO 1272 --- [main] o.s.l.c.support.AbstractContextSource    : Property 'userDn' not set - anonymous context will be used for read-write operations
+2018-07-01 09:21:40.778  INFO 1272 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-07-01 09:21:40.954  INFO 1272 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-07-01 09:21:40.966 ERROR 1272 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Embedded servlet container failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2018-07-01 09:21:40.970  INFO 1272 --- [main] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1757cd72: startup date [Sun Jul 01 09:21:30 CEST 2018]; root of context hierarchy
+2018-07-01 09:21:40.974  INFO 1272 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-07-01 09:21:40.975  INFO 1272 --- [main] o.s.j.d.e.EmbeddedDatabaseFactory        : Shutting down embedded database: url='jdbc:h2:mem:shinyproxy-social;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false'
+2018-07-01 09:22:27.718  INFO 1487 --- [main] e.o.shinyproxy.ShinyProxyApplication     : Starting ShinyProxyApplication v1.1.1 on tobias-Aspire-V5-573G with PID 1487 (/home/tobias/projects/shinyProxy/shinyproxy-1.1.1.jar started by tobias in /home/tobias/projects/shinyProxy)
+2018-07-01 09:22:27.725  INFO 1487 --- [main] e.o.shinyproxy.ShinyProxyApplication     : No active profile set, falling back to default profiles: default
+2018-07-01 09:22:28.301  INFO 1487 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1757cd72: startup date [Sun Jul 01 09:22:28 CEST 2018]; root of context hierarchy
+2018-07-01 09:22:30.192  INFO 1487 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-01 09:22:30.548  INFO 1487 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ebd97e59] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-01 09:22:31.780  INFO 1487 --- [main] org.xnio                                 : XNIO version 3.3.6.Final
+2018-07-01 09:22:31.821  INFO 1487 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.6.Final
+2018-07-01 09:22:32.004  WARN 1487 --- [main] io.undertow.websockets.jsr               : UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2018-07-01 09:22:32.004  WARN 1487 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2018-07-01 09:22:32.066  INFO 1487 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2018-07-01 09:22:32.066  INFO 1487 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3770 ms
+2018-07-01 09:22:32.364  INFO 1487 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-01 09:22:32.367  INFO 1487 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-01 09:22:32.367  INFO 1487 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-01 09:22:32.368  INFO 1487 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-01 09:22:32.369  INFO 1487 --- [main] .s.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2018-07-01 09:22:32.370  INFO 1487 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-07-01 09:22:33.009  INFO 1487 --- [main] e.o.s.stats.StatCollectorRegistry        : Disabled. Usage statistics will not be processed.
+2018-07-01 09:22:33.364  INFO 1487 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/assets/**'], []
+2018-07-01 09:22:33.365  INFO 1487 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/css/**'], []
+2018-07-01 09:22:33.365  INFO 1487 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/webjars/**'], []
+2018-07-01 09:22:33.585  INFO 1487 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3162743f, org.springframework.security.web.context.SecurityContextPersistenceFilter@5fad41be, org.springframework.security.web.header.HeaderWriterFilter@3350ebdd, org.springframework.security.web.authentication.logout.LogoutFilter@78830d9a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7772054c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@333cb916, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5bca7664, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2c708440, org.springframework.security.web.session.SessionManagementFilter@149f5761, org.springframework.security.web.access.ExceptionTranslationFilter@27b000f7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3eee3e2b]
+2018-07-01 09:22:33.703  INFO 1487 --- [main] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:shinyproxy-social;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2018-07-01 09:22:34.026  INFO 1487 --- [main] o.s.jdbc.datasource.init.ScriptUtils     : Executing SQL script from class path resource [org/springframework/social/connect/jdbc/JdbcUsersConnectionRepository.sql]
+2018-07-01 09:22:34.049  INFO 1487 --- [main] o.s.jdbc.datasource.init.ScriptUtils     : Executed SQL script from class path resource [org/springframework/social/connect/jdbc/JdbcUsersConnectionRepository.sql] in 22 ms.
+2018-07-01 09:22:34.387  INFO 1487 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1757cd72: startup date [Sun Jul 01 09:22:28 CEST 2018]; root of context hierarchy
+2018-07-01 09:22:34.508  INFO 1487 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto java.lang.String eu.openanalytics.shinyproxy.controllers.IndexController.index(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+2018-07-01 09:22:34.510  INFO 1487 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/heartbeat/**]}" onto void eu.openanalytics.shinyproxy.controllers.HeartbeatController.heartbeat(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-01 09:22:34.511  INFO 1487 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto java.lang.String eu.openanalytics.shinyproxy.controllers.ErrorController.handleError(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-01 09:22:34.512  INFO 1487 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin]}" onto java.lang.String eu.openanalytics.shinyproxy.controllers.AdminController.admin(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+2018-07-01 09:22:34.514  INFO 1487 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/app/*],methods=[POST]}" onto java.lang.String eu.openanalytics.shinyproxy.controllers.AppController.startApp(javax.servlet.http.HttpServletRequest)
+2018-07-01 09:22:34.514  INFO 1487 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/app/*],methods=[GET]}" onto java.lang.String eu.openanalytics.shinyproxy.controllers.AppController.app(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+2018-07-01 09:22:34.515  INFO 1487 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login],methods=[GET]}" onto public java.lang.String eu.openanalytics.shinyproxy.controllers.LoginController.getLoginPage(java.util.Optional<java.lang.String>,org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+2018-07-01 09:22:34.516  INFO 1487 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/issue],methods=[POST]}" onto public java.lang.String eu.openanalytics.shinyproxy.controllers.IssueController.postIssue(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-01 09:22:34.542  INFO 1487 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/connect/{providerId}],methods=[GET],params=[oauth_token]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.oauth1Callback(java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+2018-07-01 09:22:34.544  INFO 1487 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/connect/{providerId}],methods=[DELETE]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.removeConnections(java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+2018-07-01 09:22:34.544  INFO 1487 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/connect/{providerId}/{providerUserId}],methods=[DELETE]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.removeConnection(java.lang.String,java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+2018-07-01 09:22:34.545  INFO 1487 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/connect/{providerId}],methods=[GET],params=[code]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.oauth2Callback(java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+2018-07-01 09:22:34.545  INFO 1487 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/connect/{providerId}],methods=[GET],params=[error]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.oauth2ErrorCallback(java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+2018-07-01 09:22:34.546  INFO 1487 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/connect],methods=[GET]}" onto public java.lang.String org.springframework.social.connect.web.ConnectController.connectionStatus(org.springframework.web.context.request.NativeWebRequest,org.springframework.ui.Model)
+2018-07-01 09:22:34.546  INFO 1487 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/connect/{providerId}],methods=[GET]}" onto public java.lang.String org.springframework.social.connect.web.ConnectController.connectionStatus(java.lang.String,org.springframework.web.context.request.NativeWebRequest,org.springframework.ui.Model)
+2018-07-01 09:22:34.546  INFO 1487 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/connect/{providerId}],methods=[POST]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.connect(java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+2018-07-01 09:22:34.550  INFO 1487 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/signin/{providerId}],methods=[GET],params=[oauth_token]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ProviderSignInController.oauth1Callback(java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+2018-07-01 09:22:34.551  INFO 1487 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/signin/{providerId}],methods=[POST]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ProviderSignInController.signIn(java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+2018-07-01 09:22:34.551  INFO 1487 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/signin/{providerId}],methods=[GET],params=[code]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ProviderSignInController.oauth2Callback(java.lang.String,java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+2018-07-01 09:22:34.552  INFO 1487 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/signin/{providerId}],methods=[GET],params=[error]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ProviderSignInController.oauth2ErrorCallback(java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+2018-07-01 09:22:34.552  INFO 1487 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/signin/{providerId}],methods=[GET]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ProviderSignInController.canceledAuthorizationCallback()
+2018-07-01 09:22:34.616  INFO 1487 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/assets/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-01 09:22:34.616  INFO 1487 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-01 09:22:34.616  INFO 1487 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-01 09:22:34.701  INFO 1487 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-01 09:22:35.388  INFO 1487 --- [main] o.s.l.c.support.AbstractContextSource    : Property 'userDn' not set - anonymous context will be used for read-write operations
+2018-07-01 09:22:35.777  INFO 1487 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-07-01 09:22:35.887  INFO 1487 --- [main] b.c.e.u.UndertowEmbeddedServletContainer : Undertow started on port(s) 8080 (http)
+2018-07-01 09:22:35.902  INFO 1487 --- [main] e.o.shinyproxy.ShinyProxyApplication     : Started ShinyProxyApplication in 9.096 seconds (JVM running for 9.966)
+2018-07-01 09:22:56.313  INFO 1487 --- [XNIO-2 task-2] io.undertow.servlet                      : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-07-01 09:22:56.314  INFO 1487 --- [XNIO-2 task-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-07-01 09:22:56.368  INFO 1487 --- [XNIO-2 task-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 54 ms
+2018-07-01 09:23:02.389  INFO 1487 --- [XNIO-2 task-11] e.o.shinyproxy.services.UserService      : User logged in [user: jack]
+2018-07-01 09:23:06.265  INFO 1487 --- [XNIO-2 task-17] c.s.docker.client.DefaultDockerClient    : Creating container with ContainerConfig: ContainerConfig{hostname=null, domainname=null, user=null, attachStdin=null, attachStdout=null, attachStderr=null, portSpecs=null, exposedPorts=[3838], tty=null, openStdin=null, stdinOnce=null, env=[SHINYPROXY_USERNAME=jack, SHINYPROXY_USERGROUPS=SCIENTISTS], cmd=[R, -e, shinyproxy::run_01_hello()], image=openanalytics/shinyproxy-demo, volumes={}, workingDir=null, entrypoint=null, networkDisabled=null, onBuild=null, labels=null, macAddress=null, hostConfig=HostConfig{binds=[], blkioWeight=null, blkioWeightDevice=null, blkioDeviceReadBps=null, blkioDeviceWriteBps=null, blkioDeviceReadIOps=null, blkioDeviceWriteIOps=null, containerIdFile=null, lxcConf=null, privileged=false, portBindings={3838=[PortBinding{hostIp=0.0.0.0, hostPort=20000}]}, links=null, publishAllPorts=null, dns=[], dnsOptions=null, dnsSearch=null, extraHosts=null, volumesFrom=null, capAdd=null, capDrop=null, networkMode=null, securityOpt=null, devices=null, memory=null, memorySwap=null, memorySwappiness=null, memoryReservation=null, cpuPeriod=null, cpuShares=null, cpusetCpus=null, cpusetMems=null, cpuQuota=null, cgroupParent=null, restartPolicy=null, logConfig=null, ipcMode=null, ulimits=null, pidMode=null, shmSize=null, oomKillDisable=null, oomScoreAdj=null, autoRemove=null, pidsLimit=null, tmpfs=null, readonlyRootfs=null, storageOpt=null}, stopSignal=null, healthcheck=null, networkingConfig=null}
+2018-07-01 09:23:06.788 ERROR 1487 --- [XNIO-2 task-17] io.undertow.request                      : UT005023: Exception handling request to /app/01_hello
+
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is eu.openanalytics.shinyproxy.ShinyProxyException: Failed to create container
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:982) ~[spring-webmvc-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872) ~[spring-webmvc-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707) ~[javax.servlet-api-3.1.0.jar!/:3.1.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) ~[spring-webmvc-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) ~[javax.servlet-api-3.1.0.jar!/:3.1.0]
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85) ~[undertow-servlet-1.4.11.Final.jar!/:1.4.11.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129) ~[undertow-servlet-1.4.11.Final.jar!/:1.4.11.Final]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:317) ~[spring-security-web-4.2.2.RELEASE.jar!/:4.2.2.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127) ~[spring-security-web-4.2.2.RELEASE.jar!/:4.2.2.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91) ~[spring-security-web-4.2.2.RELEASE.jar!/:4.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331) ~[spring-security-web-4.2.2.RELEASE.jar!/:4.2.2.RELEASE]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:114) ~[spring-security-web-4.2.2.RELEASE.jar!/:4.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331) ~[spring-security-web-4.2.2.RELEASE.jar!/:4.2.2.RELEASE]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137) ~[spring-security-web-4.2.2.RELEASE.jar!/:4.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331) ~[spring-security-web-4.2.2.RELEASE.jar!/:4.2.2.RELEASE]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111) ~[spring-security-web-4.2.2.RELEASE.jar!/:4.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331) ~[spring-security-web-4.2.2.RELEASE.jar!/:4.2.2.RELEASE]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170) ~[spring-security-web-4.2.2.RELEASE.jar!/:4.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331) ~[spring-security-web-4.2.2.RELEASE.jar!/:4.2.2.RELEASE]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-4.2.2.RELEASE.jar!/:4.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331) ~[spring-security-web-4.2.2.RELEASE.jar!/:4.2.2.RELEASE]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200) ~[spring-security-web-4.2.2.RELEASE.jar!/:4.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331) ~[spring-security-web-4.2.2.RELEASE.jar!/:4.2.2.RELEASE]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116) ~[spring-security-web-4.2.2.RELEASE.jar!/:4.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331) ~[spring-security-web-4.2.2.RELEASE.jar!/:4.2.2.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:64) ~[spring-security-web-4.2.2.RELEASE.jar!/:4.2.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331) ~[spring-security-web-4.2.2.RELEASE.jar!/:4.2.2.RELEASE]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105) ~[spring-security-web-4.2.2.RELEASE.jar!/:4.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331) ~[spring-security-web-4.2.2.RELEASE.jar!/:4.2.2.RELEASE]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56) ~[spring-security-web-4.2.2.RELEASE.jar!/:4.2.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331) ~[spring-security-web-4.2.2.RELEASE.jar!/:4.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:214) ~[spring-security-web-4.2.2.RELEASE.jar!/:4.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:177) ~[spring-security-web-4.2.2.RELEASE.jar!/:4.2.2.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346) ~[spring-web-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:262) ~[spring-web-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61) ~[undertow-servlet-1.4.11.Final.jar!/:1.4.11.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131) ~[undertow-servlet-1.4.11.Final.jar!/:1.4.11.Final]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61) ~[undertow-servlet-1.4.11.Final.jar!/:1.4.11.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131) ~[undertow-servlet-1.4.11.Final.jar!/:1.4.11.Final]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105) ~[spring-web-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61) ~[undertow-servlet-1.4.11.Final.jar!/:1.4.11.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131) ~[undertow-servlet-1.4.11.Final.jar!/:1.4.11.Final]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81) ~[spring-web-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61) ~[undertow-servlet-1.4.11.Final.jar!/:1.4.11.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131) ~[undertow-servlet-1.4.11.Final.jar!/:1.4.11.Final]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) ~[spring-web-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61) ~[undertow-servlet-1.4.11.Final.jar!/:1.4.11.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131) ~[undertow-servlet-1.4.11.Final.jar!/:1.4.11.Final]
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84) ~[undertow-servlet-1.4.11.Final.jar!/:1.4.11.Final]
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62) ~[undertow-servlet-1.4.11.Final.jar!/:1.4.11.Final]
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36) ~[undertow-servlet-1.4.11.Final.jar!/:1.4.11.Final]
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131) ~[undertow-servlet-1.4.11.Final.jar!/:1.4.11.Final]
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57) ~[undertow-servlet-1.4.11.Final.jar!/:1.4.11.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) ~[undertow-core-1.4.11.Final.jar!/:1.4.11.Final]
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46) ~[undertow-core-1.4.11.Final.jar!/:1.4.11.Final]
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64) ~[undertow-servlet-1.4.11.Final.jar!/:1.4.11.Final]
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60) ~[undertow-core-1.4.11.Final.jar!/:1.4.11.Final]
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77) ~[undertow-servlet-1.4.11.Final.jar!/:1.4.11.Final]
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43) ~[undertow-core-1.4.11.Final.jar!/:1.4.11.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) ~[undertow-core-1.4.11.Final.jar!/:1.4.11.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) ~[undertow-core-1.4.11.Final.jar!/:1.4.11.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292) ~[undertow-servlet-1.4.11.Final.jar!/:1.4.11.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81) ~[undertow-servlet-1.4.11.Final.jar!/:1.4.11.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138) ~[undertow-servlet-1.4.11.Final.jar!/:1.4.11.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135) ~[undertow-servlet-1.4.11.Final.jar!/:1.4.11.Final]
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48) ~[undertow-servlet-1.4.11.Final.jar!/:1.4.11.Final]
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43) [undertow-servlet-1.4.11.Final.jar!/:1.4.11.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272) ~[undertow-servlet-1.4.11.Final.jar!/:1.4.11.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81) ~[undertow-servlet-1.4.11.Final.jar!/:1.4.11.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104) [undertow-servlet-1.4.11.Final.jar!/:1.4.11.Final]
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:211) [undertow-core-1.4.11.Final.jar!/:1.4.11.Final]
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:809) [undertow-core-1.4.11.Final.jar!/:1.4.11.Final]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167) [na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641) [na:na]
+	at java.base/java.lang.Thread.run(Thread.java:844) [na:na]
+Caused by: eu.openanalytics.shinyproxy.ShinyProxyException: Failed to create container
+	at eu.openanalytics.shinyproxy.container.AbstractContainerBackend.createProxy(AbstractContainerBackend.java:99) ~[classes!/:1.1.1]
+	at eu.openanalytics.shinyproxy.services.ProxyService.startProxy(ProxyService.java:200) ~[classes!/:1.1.1]
+	at eu.openanalytics.shinyproxy.services.ProxyService.getMapping(ProxyService.java:111) ~[classes!/:1.1.1]
+	at eu.openanalytics.shinyproxy.controllers.AppController.startApp(AppController.java:63) ~[classes!/:1.1.1]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133) ~[spring-web-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:116) ~[spring-webmvc-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827) ~[spring-webmvc-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738) ~[spring-webmvc-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897) ~[spring-webmvc-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) ~[spring-webmvc-4.3.7.RELEASE.jar!/:4.3.7.RELEASE]
+	... 81 common frames omitted
+Caused by: com.spotify.docker.client.exceptions.DockerException: java.util.concurrent.ExecutionException: javax.ws.rs.ProcessingException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:1234 [localhost/127.0.0.1] failed: Connection refused (Connection refused)
+	at com.spotify.docker.client.DefaultDockerClient.propagate(DefaultDockerClient.java:2393) ~[docker-client-8.6.2.jar!/:8.6.2]
+	at com.spotify.docker.client.DefaultDockerClient.request(DefaultDockerClient.java:2335) ~[docker-client-8.6.2.jar!/:8.6.2]
+	at com.spotify.docker.client.DefaultDockerClient.createContainer(DefaultDockerClient.java:620) ~[docker-client-8.6.2.jar!/:8.6.2]
+	at com.spotify.docker.client.DefaultDockerClient.createContainer(DefaultDockerClient.java:602) ~[docker-client-8.6.2.jar!/:8.6.2]
+	at eu.openanalytics.shinyproxy.container.docker.DockerEngineBackend.prepareProxy(DockerEngineBackend.java:63) ~[classes!/:1.1.1]
+	at eu.openanalytics.shinyproxy.container.docker.DockerEngineBackend.prepareProxy(DockerEngineBackend.java:38) ~[classes!/:1.1.1]
+	at eu.openanalytics.shinyproxy.container.AbstractContainerBackend.createProxy(AbstractContainerBackend.java:95) ~[classes!/:1.1.1]
+	... 97 common frames omitted
+Caused by: java.util.concurrent.ExecutionException: javax.ws.rs.ProcessingException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:1234 [localhost/127.0.0.1] failed: Connection refused (Connection refused)
+	at jersey.repackaged.com.google.common.util.concurrent.AbstractFuture$Sync.getValue(AbstractFuture.java:299) ~[jersey-guava-2.22.2.jar!/:na]
+	at jersey.repackaged.com.google.common.util.concurrent.AbstractFuture$Sync.get(AbstractFuture.java:286) ~[jersey-guava-2.22.2.jar!/:na]
+	at jersey.repackaged.com.google.common.util.concurrent.AbstractFuture.get(AbstractFuture.java:116) ~[jersey-guava-2.22.2.jar!/:na]
+	at com.spotify.docker.client.DefaultDockerClient.request(DefaultDockerClient.java:2333) ~[docker-client-8.6.2.jar!/:8.6.2]
+	... 102 common frames omitted
+Caused by: javax.ws.rs.ProcessingException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:1234 [localhost/127.0.0.1] failed: Connection refused (Connection refused)
+	at org.glassfish.jersey.apache.connector.ApacheConnector.apply(ApacheConnector.java:481) ~[jersey-apache-connector-2.22.2.jar!/:na]
+	at org.glassfish.jersey.apache.connector.ApacheConnector$1.run(ApacheConnector.java:491) ~[jersey-apache-connector-2.22.2.jar!/:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at jersey.repackaged.com.google.common.util.concurrent.MoreExecutors$DirectExecutorService.execute(MoreExecutors.java:299) ~[jersey-guava-2.22.2.jar!/:na]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118) ~[na:na]
+	at jersey.repackaged.com.google.common.util.concurrent.AbstractListeningExecutorService.submit(AbstractListeningExecutorService.java:50) ~[jersey-guava-2.22.2.jar!/:na]
+	at jersey.repackaged.com.google.common.util.concurrent.AbstractListeningExecutorService.submit(AbstractListeningExecutorService.java:37) ~[jersey-guava-2.22.2.jar!/:na]
+	at org.glassfish.jersey.apache.connector.ApacheConnector.apply(ApacheConnector.java:487) ~[jersey-apache-connector-2.22.2.jar!/:na]
+	at org.glassfish.jersey.client.ClientRuntime$2.run(ClientRuntime.java:178) ~[jersey-client-2.22.2.jar!/:na]
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:271) ~[jersey-common-2.22.2.jar!/:na]
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:267) ~[jersey-common-2.22.2.jar!/:na]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315) ~[jersey-common-2.22.2.jar!/:na]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297) ~[jersey-common-2.22.2.jar!/:na]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:267) ~[jersey-common-2.22.2.jar!/:na]
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:340) ~[jersey-common-2.22.2.jar!/:na]
+	at org.glassfish.jersey.client.ClientRuntime$3.run(ClientRuntime.java:210) ~[jersey-client-2.22.2.jar!/:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	... 3 common frames omitted
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:1234 [localhost/127.0.0.1] failed: Connection refused (Connection refused)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:159) ~[httpclient-4.5.3.jar!/:4.5.3]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:359) ~[httpclient-4.5.3.jar!/:4.5.3]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:381) ~[httpclient-4.5.3.jar!/:4.5.3]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237) ~[httpclient-4.5.3.jar!/:4.5.3]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185) ~[httpclient-4.5.3.jar!/:4.5.3]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89) ~[httpclient-4.5.3.jar!/:4.5.3]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111) ~[httpclient-4.5.3.jar!/:4.5.3]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185) ~[httpclient-4.5.3.jar!/:4.5.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72) ~[httpclient-4.5.3.jar!/:4.5.3]
+	at org.glassfish.jersey.apache.connector.ApacheConnector.apply(ApacheConnector.java:435) ~[jersey-apache-connector-2.22.2.jar!/:na]
+	... 21 common frames omitted
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:400) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:243) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:225) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:402) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:591) ~[na:na]
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75) ~[httpclient-4.5.3.jar!/:4.5.3]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142) ~[httpclient-4.5.3.jar!/:4.5.3]
+	... 30 common frames omitted
+
+2018-07-01 09:23:16.612  INFO 1487 --- [Thread-1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1757cd72: startup date [Sun Jul 01 09:22:28 CEST 2018]; root of context hierarchy
+2018-07-01 09:23:16.615  INFO 1487 --- [Thread-1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-07-01 09:23:16.617  INFO 1487 --- [Thread-1] o.s.j.d.e.EmbeddedDatabaseFactory        : Shutting down embedded database: url='jdbc:h2:mem:shinyproxy-social;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false'
+2018-07-01 09:23:16.632  INFO 1487 --- [Thread-1] io.undertow.servlet                      : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2018-07-01 09:23:43.026  INFO 1573 --- [main] e.o.shinyproxy.ShinyProxyApplication     : Starting ShinyProxyApplication v1.1.1 on tobias-Aspire-V5-573G with PID 1573 (/home/tobias/projects/shinyProxy/shinyproxy-1.1.1.jar started by tobias in /home/tobias/projects/shinyProxy)
+2018-07-01 09:23:43.032  INFO 1573 --- [main] e.o.shinyproxy.ShinyProxyApplication     : No active profile set, falling back to default profiles: default
+2018-07-01 09:23:43.559  INFO 1573 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1757cd72: startup date [Sun Jul 01 09:23:43 CEST 2018]; root of context hierarchy
+2018-07-01 09:23:45.414  INFO 1573 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-07-01 09:23:45.797  INFO 1573 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d3968cef] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-01 09:23:47.125  INFO 1573 --- [main] org.xnio                                 : XNIO version 3.3.6.Final
+2018-07-01 09:23:47.172  INFO 1573 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.6.Final
+2018-07-01 09:23:47.364  WARN 1573 --- [main] io.undertow.websockets.jsr               : UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2018-07-01 09:23:47.365  WARN 1573 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2018-07-01 09:23:47.426  INFO 1573 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2018-07-01 09:23:47.427  INFO 1573 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3877 ms
+2018-07-01 09:23:47.780  INFO 1573 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-01 09:23:47.782  INFO 1573 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-01 09:23:47.783  INFO 1573 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-01 09:23:47.783  INFO 1573 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-01 09:23:47.785  INFO 1573 --- [main] .s.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2018-07-01 09:23:47.786  INFO 1573 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-07-01 09:23:48.367  INFO 1573 --- [main] e.o.s.stats.StatCollectorRegistry        : Disabled. Usage statistics will not be processed.
+2018-07-01 09:23:48.666  INFO 1573 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/assets/**'], []
+2018-07-01 09:23:48.666  INFO 1573 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/css/**'], []
+2018-07-01 09:23:48.666  INFO 1573 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/webjars/**'], []
+2018-07-01 09:23:48.787  INFO 1573 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7d37f1c, org.springframework.security.web.context.SecurityContextPersistenceFilter@1f193686, org.springframework.security.web.header.HeaderWriterFilter@253b380a, org.springframework.security.web.authentication.logout.LogoutFilter@9255c05, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@58d63b16, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6dcd5639, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1d25c1c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@69d6a7cd, org.springframework.security.web.session.SessionManagementFilter@3350ebdd, org.springframework.security.web.access.ExceptionTranslationFilter@545e57d7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@486bc9a4]
+2018-07-01 09:23:48.889  INFO 1573 --- [main] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:shinyproxy-social;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2018-07-01 09:23:49.234  INFO 1573 --- [main] o.s.jdbc.datasource.init.ScriptUtils     : Executing SQL script from class path resource [org/springframework/social/connect/jdbc/JdbcUsersConnectionRepository.sql]
+2018-07-01 09:23:49.253  INFO 1573 --- [main] o.s.jdbc.datasource.init.ScriptUtils     : Executed SQL script from class path resource [org/springframework/social/connect/jdbc/JdbcUsersConnectionRepository.sql] in 19 ms.
+2018-07-01 09:23:49.550  INFO 1573 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1757cd72: startup date [Sun Jul 01 09:23:43 CEST 2018]; root of context hierarchy
+2018-07-01 09:23:49.664  INFO 1573 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto java.lang.String eu.openanalytics.shinyproxy.controllers.IndexController.index(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+2018-07-01 09:23:49.666  INFO 1573 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/heartbeat/**]}" onto void eu.openanalytics.shinyproxy.controllers.HeartbeatController.heartbeat(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-01 09:23:49.668  INFO 1573 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto java.lang.String eu.openanalytics.shinyproxy.controllers.ErrorController.handleError(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-01 09:23:49.669  INFO 1573 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin]}" onto java.lang.String eu.openanalytics.shinyproxy.controllers.AdminController.admin(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+2018-07-01 09:23:49.670  INFO 1573 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/app/*],methods=[GET]}" onto java.lang.String eu.openanalytics.shinyproxy.controllers.AppController.app(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+2018-07-01 09:23:49.670  INFO 1573 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/app/*],methods=[POST]}" onto java.lang.String eu.openanalytics.shinyproxy.controllers.AppController.startApp(javax.servlet.http.HttpServletRequest)
+2018-07-01 09:23:49.671  INFO 1573 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login],methods=[GET]}" onto public java.lang.String eu.openanalytics.shinyproxy.controllers.LoginController.getLoginPage(java.util.Optional<java.lang.String>,org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+2018-07-01 09:23:49.672  INFO 1573 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/issue],methods=[POST]}" onto public java.lang.String eu.openanalytics.shinyproxy.controllers.IssueController.postIssue(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-01 09:23:49.693  INFO 1573 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/connect/{providerId}],methods=[POST]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.connect(java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+2018-07-01 09:23:49.693  INFO 1573 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/connect/{providerId}],methods=[DELETE]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.removeConnections(java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+2018-07-01 09:23:49.694  INFO 1573 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/connect/{providerId}/{providerUserId}],methods=[DELETE]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.removeConnection(java.lang.String,java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+2018-07-01 09:23:49.694  INFO 1573 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/connect/{providerId}],methods=[GET],params=[oauth_token]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.oauth1Callback(java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+2018-07-01 09:23:49.694  INFO 1573 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/connect/{providerId}],methods=[GET],params=[error]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.oauth2ErrorCallback(java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+2018-07-01 09:23:49.695  INFO 1573 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/connect],methods=[GET]}" onto public java.lang.String org.springframework.social.connect.web.ConnectController.connectionStatus(org.springframework.web.context.request.NativeWebRequest,org.springframework.ui.Model)
+2018-07-01 09:23:49.695  INFO 1573 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/connect/{providerId}],methods=[GET]}" onto public java.lang.String org.springframework.social.connect.web.ConnectController.connectionStatus(java.lang.String,org.springframework.web.context.request.NativeWebRequest,org.springframework.ui.Model)
+2018-07-01 09:23:49.697  INFO 1573 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/connect/{providerId}],methods=[GET],params=[code]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ConnectController.oauth2Callback(java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+2018-07-01 09:23:49.702  INFO 1573 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/signin/{providerId}],methods=[POST]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ProviderSignInController.signIn(java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+2018-07-01 09:23:49.702  INFO 1573 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/signin/{providerId}],methods=[GET],params=[oauth_token]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ProviderSignInController.oauth1Callback(java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+2018-07-01 09:23:49.703  INFO 1573 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/signin/{providerId}],methods=[GET],params=[error]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ProviderSignInController.oauth2ErrorCallback(java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+2018-07-01 09:23:49.703  INFO 1573 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/signin/{providerId}],methods=[GET]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ProviderSignInController.canceledAuthorizationCallback()
+2018-07-01 09:23:49.704  INFO 1573 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/signin/{providerId}],methods=[GET],params=[code]}" onto public org.springframework.web.servlet.view.RedirectView org.springframework.social.connect.web.ProviderSignInController.oauth2Callback(java.lang.String,java.lang.String,org.springframework.web.context.request.NativeWebRequest)
+2018-07-01 09:23:49.772  INFO 1573 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/assets/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-01 09:23:49.772  INFO 1573 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-01 09:23:49.773  INFO 1573 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-01 09:23:49.868  INFO 1573 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-01 09:23:50.586  INFO 1573 --- [main] o.s.l.c.support.AbstractContextSource    : Property 'userDn' not set - anonymous context will be used for read-write operations
+2018-07-01 09:23:50.933  INFO 1573 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-07-01 09:23:51.025  INFO 1573 --- [main] b.c.e.u.UndertowEmbeddedServletContainer : Undertow started on port(s) 8080 (http)
+2018-07-01 09:23:51.038  INFO 1573 --- [main] e.o.shinyproxy.ShinyProxyApplication     : Started ShinyProxyApplication in 8.816 seconds (JVM running for 9.669)
+2018-07-01 09:24:04.790  INFO 1573 --- [XNIO-2 task-2] io.undertow.servlet                      : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-07-01 09:24:04.791  INFO 1573 --- [XNIO-2 task-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-07-01 09:24:04.820  INFO 1573 --- [XNIO-2 task-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 28 ms
+2018-07-01 09:24:14.901  INFO 1573 --- [XNIO-2 task-4] e.o.shinyproxy.services.UserService      : User logged in [user: jack]
+2018-07-01 09:24:18.541  INFO 1573 --- [XNIO-2 task-7] c.s.docker.client.DefaultDockerClient    : Creating container with ContainerConfig: ContainerConfig{hostname=null, domainname=null, user=null, attachStdin=null, attachStdout=null, attachStderr=null, portSpecs=null, exposedPorts=[3838], tty=null, openStdin=null, stdinOnce=null, env=[SHINYPROXY_USERNAME=jack, SHINYPROXY_USERGROUPS=SCIENTISTS], cmd=[R, -e, shinyproxy::run_01_hello()], image=openanalytics/shinyproxy-demo, volumes={}, workingDir=null, entrypoint=null, networkDisabled=null, onBuild=null, labels=null, macAddress=null, hostConfig=HostConfig{binds=[], blkioWeight=null, blkioWeightDevice=null, blkioDeviceReadBps=null, blkioDeviceWriteBps=null, blkioDeviceReadIOps=null, blkioDeviceWriteIOps=null, containerIdFile=null, lxcConf=null, privileged=false, portBindings={3838=[PortBinding{hostIp=0.0.0.0, hostPort=20000}]}, links=null, publishAllPorts=null, dns=[], dnsOptions=null, dnsSearch=null, extraHosts=null, volumesFrom=null, capAdd=null, capDrop=null, networkMode=null, securityOpt=null, devices=null, memory=null, memorySwap=null, memorySwappiness=null, memoryReservation=null, cpuPeriod=null, cpuShares=null, cpusetCpus=null, cpusetMems=null, cpuQuota=null, cgroupParent=null, restartPolicy=null, logConfig=null, ipcMode=null, ulimits=null, pidMode=null, shmSize=null, oomKillDisable=null, oomScoreAdj=null, autoRemove=null, pidsLimit=null, tmpfs=null, readonlyRootfs=null, storageOpt=null}, stopSignal=null, healthcheck=null, networkingConfig=null}
+2018-07-01 09:24:19.593  INFO 1573 --- [XNIO-2 task-7] c.s.docker.client.DefaultDockerClient    : Starting container with Id: 80bf8623dcabbe3df069b8fe8c7a61db611dbf15c11a05285ed04c419e826b70
+2018-07-01 09:24:23.421  INFO 1573 --- [XNIO-2 task-7] e.o.shinyproxy.services.ProxyService     : Proxy activated [user: jack] [app: 01_hello]
+2018-07-01 09:24:50.538  INFO 1573 --- [Thread-1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1757cd72: startup date [Sun Jul 01 09:23:43 CEST 2018]; root of context hierarchy
+2018-07-01 09:24:50.544  INFO 1573 --- [Thread-1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-07-01 09:24:50.545  INFO 1573 --- [Thread-1] o.s.j.d.e.EmbeddedDatabaseFactory        : Shutting down embedded database: url='jdbc:h2:mem:shinyproxy-social;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false'
+2018-07-01 09:24:51.568  INFO 1573 --- [Thread-1] io.undertow.servlet                      : Destroying Spring FrameworkServlet 'dispatcherServlet'
